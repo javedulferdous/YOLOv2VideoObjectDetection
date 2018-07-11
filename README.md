@@ -15,8 +15,7 @@
 #Step 5 - Processing a video file
 1. move the video file into the darkflow-master
 2. from there, open a cmd window
-3. use the command
-python flow --model cfg/yolo.cfg --load bin/yolov2.weights --demo videofile.mp4 --gpu 1.0 --saveVideo
+3. Run "'YOLOdetect.py'"
 videofile.mp4 is the name of your video.
 
 NOTE: if you do not have the GPU version of tensorflow, leave off the --gpu 1.0
