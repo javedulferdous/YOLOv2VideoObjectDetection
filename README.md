@@ -1,21 +1,21 @@
 #Step2 - Download the Darkflow repo
-https://github.com/thtrieu/darkflow
-extract the files somewhere locally
-#Step3 - Build the library
-open an cmd window and type
-python setup.py build_ext --inplace
-OR
+1. https://github.com/thtrieu/darkflow
+2. extract the files somewhere locally
 
-pip install -e .
+#Step3 - Build the library
+1. open an cmd window and type
+2. python setup.py build_ext --inplace  OR  pip install -e .
+
 #Step 4 - Download a weights file
-Download the YOLOv2 608x608 weights file here (https://pjreddie.com/darknet/yolov2/)
-NOTE: there are other weights files you can try if you like
-create a bin folder within the darkflow-master folder
-put the weights file in the bin folder
-Processing a video file
-move the video file into the ``darkflow-master```
-from there, open a cmd window
-use the command
+1. Download the YOLOv2 608x608 weights file here (https://pjreddie.com/darknet/yolov2/)
+2. NOTE: there are other weights files you can try if you like
+3. create a bin folder within the darkflow-master folder
+4. put the weights file in the bin folder
+
+#Step 5 - Processing a video file
+1. move the video file into the darkflow-master
+2. from there, open a cmd window
+3. use the command
 python flow --model cfg/yolo.cfg --load bin/yolov2.weights --demo videofile.mp4 --gpu 1.0 --saveVideo
 videofile.mp4 is the name of your video.
 
