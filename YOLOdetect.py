@@ -1,0 +1,1 @@
+python flow --model cfg/yolo.cfg --load bin/yolov2.weights --demo videofile.mp4 --gpu 1.0 --saveVideo videofile.mp4
