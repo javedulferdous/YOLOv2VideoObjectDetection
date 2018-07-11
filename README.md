@@ -1,14 +1,15 @@
 # YOLOv2VideoObjectDetection
 
 
-Step1 - Requirements
-Python 3.5 or 3.6. Anaconda 
-Tensorflow
-openCV 
+#Step1 - Requirements
+1. Python 3.5 or 3.6. Anaconda 
+2. Tensorflow
+3. openCV 
 
 Step2 - Download the Darkflow repo
 https://github.com/thtrieu/darkflow
 extract the files somewhere locally
+
 Step3 - Build the library
 open an cmd window and type
 python setup.py build_ext --inplace
